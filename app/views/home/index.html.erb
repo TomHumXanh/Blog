@@ -1,0 +1,7 @@
+
+<% if author_signed_in? %>
+  <h1>Welcome, <%= current_author.email %></h1>
+<% else %>
+  <h1>Welcome New Guy</h1>
+<% end %>
+
